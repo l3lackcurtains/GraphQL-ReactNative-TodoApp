@@ -1,0 +1,32 @@
+{
+  "name": "todoApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apollo-client": "^1.4.0",
+    "graphql-tag": "^2.4.0",
+    "react": "16.0.0-alpha.6",
+    "react-apollo": "^1.4.2",
+    "react-logger": "^1.1.0",
+    "react-native": "0.44.2",
+    "react-native-elements": "^0.13.0",
+    "react-native-modal": "^2.4.0",
+    "react-native-vector-icons": "^4.2.0",
+    "react-redux": "^5.0.5",
+    "react-saga": "^0.2.5",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "1.9.2",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
