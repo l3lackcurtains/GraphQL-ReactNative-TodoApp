@@ -82,7 +82,7 @@ class Todos extends Component {
 				style={{
 					justifyContent: 'flex-end',
 					margin: 0,
-    			marginTop: 450,
+    			marginTop: 350,
 					backgroundColor: '#fff',
 				}}			
 			>
